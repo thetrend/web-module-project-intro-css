@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 
 /* Document
    ========================================================================== */
@@ -360,7 +360,7 @@ template {
 }
 
 body {
-  margin: 2% auto;
+  margin: 2% auto 0 auto;
 }
 
 h1 {
@@ -371,6 +371,15 @@ h1 {
 
 main {
   background: #ddb9a3;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  width: 68%;
+  padding: 30px 4%;
+}
+
+main > p:last-of-type {
+  margin-top: 30px;
 }
 
 header > h2,
@@ -378,6 +387,19 @@ header > p,
 main > p {
   font-size: 1.25rem;
   font-weight: normal;
+}
+
+aside {
+  width: 18%;
+  text-align: center;
+}
+
+aside > section {
+  margin: 50px auto;
+}
+
+aside > section > img {
+  width: 45%;
 }
 
 aside > section  > p {
@@ -420,10 +442,58 @@ ul.nav-links > li:last-child {
 }
 
 footer {
+  width: 100%;
+  background-image: url('./assets/footer_img.jpg');
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 450px;
+  min-height: 10vh;
+  vertical-align: baseline;
+}
+
+footer > nav {
   background: #f9e7dc;
+  padding: 60px;
 }
 
 .bold-text {
   font-weight: bold;
   font-size: inherit;
+}
+
+#header-group {
+  width: 70%;
+  margin: 4% 15%;
+}
+
+#header-group > section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+#header-image {
+  width: 25%;
+}
+
+#header-image > img {
+  border-radius: 50%;
+  width: 100%;
+}
+#header-text {
+  float: right;
+  text-align: center;
+}
+#header-text > h1 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+#header-text > p {
+  margin: 30px auto 40px auto;
+  font-size: 120%;
+}
+
+#header-text > p:last-of-type {
+  width: 50%;
 }
