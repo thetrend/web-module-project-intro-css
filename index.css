@@ -347,3 +347,20 @@ template {
 [hidden] {
   display: none;
 }
+
+/** Begin project stylesheet **/
+ul.nav-links {
+  list-style-type: none;
+}
+
+ul.nav-links > li:first-child {
+  background: #ff764e;
+}
+
+ul.nav-links > li:nth-child(2) {
+  background: #5ed3eb;
+}
+
+ul.nav-links > li:last-child {
+  background: #ffcd69;
+}
