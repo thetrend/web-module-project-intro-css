@@ -356,6 +356,11 @@ template {
 * {
   font-family: 'Roboto Mono', monospace;
   font-size: large;
+  margin: auto;
+}
+
+body {
+  margin: 2% auto;
 }
 
 h1 {
@@ -380,11 +385,19 @@ aside > section  > p {
 }
 
 ul.nav-links {
-  list-style-type: none;
+  margin: 0 20%;
+  column-count: 3;
+  padding-inline-start: 0;
 }
 
 ul.nav-links > li {
-  font-size: 1.45rem;
+  font-size: 1.40rem;
+  display: block;
+  padding: 10px 5px;
+  border-radius: 20px;
+  max-width: 8em;
+  color: white;
+  text-align: center;
 }
 
 ul.nav-links > li:first-child {
@@ -397,6 +410,13 @@ ul.nav-links > li:nth-child(2) {
 
 ul.nav-links > li:last-child {
   background: #ffcd69;
+  padding: 6px auto;
+  max-width: 8em;
+}
+
+.line-break {
+  display: block;
+  font-size: inherit;
 }
 
 footer {
