@@ -1,3 +1,7 @@
+/* Bring in external imports */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -349,8 +353,33 @@ template {
 }
 
 /** Begin project stylesheet **/
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  font-size: 3.80rem;
+}
+
+header > h2,
+header > p,
+main > p {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+aside > section  > p {
+  font-size: 0.9rem;
+}
+
 ul.nav-links {
   list-style-type: none;
+}
+
+ul.nav-links > li {
+  font-size: 1.45rem;
 }
 
 ul.nav-links > li:first-child {
