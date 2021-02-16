@@ -357,10 +357,15 @@ template {
   font-family: 'Roboto Mono', monospace;
   font-size: large;
 }
+
 h1 {
   font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   font-size: 3.80rem;
+}
+
+main {
+  background: #ddb9a3;
 }
 
 header > h2,
@@ -392,4 +397,13 @@ ul.nav-links > li:nth-child(2) {
 
 ul.nav-links > li:last-child {
   background: #ffcd69;
+}
+
+footer {
+  background: #f9e7dc;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: inherit;
 }
